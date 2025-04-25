@@ -1,8 +1,7 @@
 use std::time::Instant;
 
-use rust_pattern_matching::PatternMatcher;
+use basic_pattern_matcher::PatternMatcher;
 
-// --- Example Usage ---
 fn main() {
     // Now use PatternMatcher<T>, e.g., PatternMatcher<&str> or PatternMatcher<u32>
     let mut matcher: PatternMatcher<u32> = PatternMatcher::new(); // Example with u32 data

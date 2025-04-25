@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "rust_pattern_matching"
+name = "basic_pattern_matcher"
 version = "0.1.0"

@@ -2,5 +2,7 @@
 name = "basic_pattern_matcher"
 version = "0.1.0"
 edition = "2024"
+description = "A basic pattern matcher for Rust using . as a delimiter, * for single level wildcard, ** for multi level wildcard"
+license = "MIT"
 
 [dependencies]

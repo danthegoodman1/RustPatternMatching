@@ -4,6 +4,10 @@ A basic pattern matcher for Rust using . as a delimiter, * for single level wild
 
 Largely written by Gemini 2.5 Pro
 
+```
+cargo add basic_pattern_matcher
+```
+
 M3 Max 128GB:
 
 ```

@@ -1,8 +1,9 @@
 [package]
 name = "basic_pattern_matcher"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "A basic pattern matcher for Rust using . as a delimiter, * for single level wildcard, ** for multi level wildcard"
 license = "MIT"
+repository = "https://github.com/danthegoodman1/basic_pattern_matcher"
 
 [dependencies]

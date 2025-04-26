@@ -1,6 +1,8 @@
 # basic_pattern_matcher
 
-A basic pattern matcher for Rust using . as a delimiter, * for single level wildcard, ** for multi level wildcard
+A basic pattern matcher for Rust using . as a delimiter, * for single level wildcard, ** for multi level wildcard.
+
+This uses a trie-based architecture, and can probably be further optimized.
 
 Largely written by Gemini 2.5 Pro
 

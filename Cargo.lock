@@ -4,4 +4,4 @@ version = 4
 
 [[package]]
 name = "basic_pattern_matcher"
-version = "0.1.3"
+version = "0.1.4"

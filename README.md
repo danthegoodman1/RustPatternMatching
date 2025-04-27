@@ -2,7 +2,7 @@
 
 A basic pattern matcher for Rust using . as a delimiter, * for single level wildcard, ** for multi level wildcard.
 
-This uses a trie-based architecture, and can probably be further optimized.
+This uses a trie-based architecture, and can probably be further optimized (see https://bravenewgeek.com/fast-topic-matching/ which finds that tries actually scale better)
 
 Largely written by Gemini 2.5 Pro
 

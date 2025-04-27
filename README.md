@@ -6,6 +6,13 @@ This uses a trie-based architecture, and can probably be further optimized (see 
 
 Largely written by Gemini 2.5 Pro
 
+## Concurrency
+
+This does not support concurrency out of the box. For concurrent (thread safe) applications, some ideas to try would be:
+
+- Using an actor thread, and handling small batches of requests from a channel (loop and grab what ever is available, up to N, then respond)
+- Use Arc<Mutex> (simpler, potentially more overhead than actor model)
+
 ```
 cargo add basic_pattern_matcher
 ```

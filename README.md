@@ -1,5 +1,7 @@
 # basic_pattern_matcher
 
+[docs.rs](https://docs.rs/basic_pattern_matcher/latest/basic_pattern_matcher/) [crates.io](https://crates.io/crates/basic_pattern_matcher)
+
 A basic pattern matcher for Rust using . as a delimiter, * for single level wildcard, ** for multi level wildcard.
 
 This uses a trie-based architecture, and can probably be further optimized (see https://bravenewgeek.com/fast-topic-matching/ which finds that tries actually scale better)
